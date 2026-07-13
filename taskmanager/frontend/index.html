@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Task Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Manager</h1>
+    <p class="subtitle">Node.js + MongoDB + Redis + Nginx</p>
+
+    <form id="taskForm">
+      <input type="text" id="title" placeholder="Task title" required>
+      <input type="text" id="description" placeholder="Description (optional)">
+      <button type="submit">Add Task</button>
+    </form>
+
+    <p id="source" class="source"></p>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
